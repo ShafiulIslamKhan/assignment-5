@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #f6f9f9;
+	font-family: 'Lato', sans-serif;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+
+}
+
+header{
+	width: 100%;
+	float: left;
+	padding: 27px 0px;
+}
+
+/*Banner Section*/
+.banner{
+	width: 100%;
+	float: left;
+	background:url(../img/banner.jpg) no-repeat;
+	background-size: cover;
+	padding: 27px 0px;
+	color: #fff;
+}
+.banner-main{
+	width: 60%;
+	margin: 0px auto;
+	text-align: center;
+
+
+}
+.banner-main h2{
+	font-size: 120px;
+	
+
+}
+.banner-main span{
+	border-bottom: 2px solid #15a4fa;
+	display: block;
+	width: 70%;
+	margin: 20px auto;
+}
+.banner-main h4{
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 55px;
+	
+		
+}
+.btn{
+	background: none;
+	border: 1px solid #15a4fa;
+	padding: 14px 22px;
+	color: #fff;
+	font-size: 18px;
+	
+}
+.icon{
+	margin-top: 120px;
+	font-size: 36px;
+	margin-bottom: 40px;
+	
+}
+
+/*About Section */
+.about{
+	width: 100%;
+	float: left;
+	padding: 27px 0px;
+}
+.about-content{
+	width: 80%;
+	margin: 0px auto;
+	text-align: center;
+	
+}
+.about-content h2{
+	color: #2d3950;
+	font-size: 40px;
+	font-weight: 400;
+	margin-bottom: 28px;
+	margin-top: 50px;
+}
+.about-content h6{
+	color: #999999;
+    font-size: 17px;
+    line-height: 25px;
+	font-weight: 400;
+	margin-bottom: 110px;
+    
+}
+/*Service section*/
+.service{
+	width: 100%;
+	float: left;
+	padding: 27px 0px;
+	background-color: #fff;
+	color: #2d3950;
+}
+.service h2{
+	text-align: center;
+	margin-bottom: 27px;
+	font-weight: 400;
+	font-size: 22px;
+	
+}
+.service p{
+	text-align: center;
+	margin-bottom: 37px;
+	color: #999999;
+	font-weight: 400;
+	font-size: 15px;
+}
+.service-one{
+	width: 33.33%;
+	float: left;
+}
+.service-icon{
+	width: 100px;
+	height: 100px;
+	background-color: #48baff;
+	line-height: 100px;
+	margin: 37px auto;
+	text-align: center;
+	font-size: 37px;
+    color: #fff;
+	position: relative;
+}
+.service-icon::after{
+	content:'';
+	width : 50%;
+	height : 100%;
+	position : absolute;
+	background : #5fc3ff;
+	right : 0;
+	opacity: 0.6;
+}
+.service-two{
+	width: 33.33%;
+	float: left;
+}
+.service-three{
+	width: 33.33%;
+	float: left;
+}
+
+/*Portfolio Section*/
+.portfolio{
+	width: 100%;
+	float:left;
+	padding: 27px 0px;
+}
+.portfolio h2{
+	text-align: center;
+	margin-top: 54px;
+	margin-bottom: 20px;
+	font-weight: 400;
+	font-size: 40px;
+	color: #2d3950;
+}
+.portfolio h6{
+	text-align: center;
+	margin-bottom: 70px;
+	color: #999999;
+	font-weight: 400;
+	font-size: 17px;
+}
+.portfolio-one{
+	width: 16.6666%;
+    float: left;
+    padding: 7px 90px;
+}
+.portfolio-one img{
+	width : 350px;
+}
+/*Contact Section*/
+.contact{
+	width: 100%;
+	float: left;
+	background:url(../img/bg2.jpg);
+	color: #fff;
+	padding: 27px 0px; 
+}
+.contact-title{
+    text-align: center;
+    width: 50%;
+    margin: 50px auto;
+}
+.contact-title h2{
+	font-weight: 400;
+	font-size: 40px;
+	margin-bottom: 28px;
+}
+.contact-title h6{
+	font-size: 15px;
+	margin: 25px 0px;
+	
+}
+.form{
+	width:50%;
+	margin: 25px auto;
+}
+.control{
+	width: 46%;
+    padding: 20px 7px;
+    background:none;
+	border: 1px solid #fff;
+}
+.form textarea{
+	width: 95%;
+    margin-top: 10px;
+    background:none;
+    padding: 20px 5px;
+	border: 1px solid #fff;
+    
+}
+.form label{
+	margin: 15px 0px;
+	
+}
+.form button{
+	text-align: right;
+	margin-bottom: 50px;
+}
+
+.contact button{
+	padding: 15px 0px;
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+}
+/*Ending Section*/
+.ending{
+	width: 100%;
+	float:left;
+	padding: 27px 0px;
+}
+.copyright{
+	width: 70%;
+	float: left;
+	color: #999999;
+	font-size: 20px;
+	font-weight: 400;
+}
+.navigation{
+	width: 30%;
+	float: left;
+	text-align: right;
+}
+.navigation nav{
+	text-align: right;
+}
+.navigation nav ul{
+	list-style: none;
+}
+.navigation nav ul li{
+	display:inline-block;
+}
+.navigation nav ul li i{
+	background:#15a4fa;
+	color: white;
+	padding: 14px;
+}
